@@ -24,7 +24,7 @@ env.sitename = 'dakhli'
 env.code_user = 'root'
 env.prod_user = 'www'
 # Uncomment and add your name here
-env.actor = 'Christoph Boehner'
+env.actor = 'Serge Davidov'
 
 
 env.roledefs = {
