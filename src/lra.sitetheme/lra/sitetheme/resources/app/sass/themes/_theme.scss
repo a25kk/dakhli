@@ -1,0 +1,58 @@
+//
+// Main site theme
+// --------------------------------------
+
+
+// Hide toolbar
+// NOTE: re-activate for CMS backend integration
+.app-toolbar {
+    visibility: hidden;
+}
+
+//== Main content area
+//
+//## Provides optional fullscreen layouts
+.app-main {
+    @extend .container;
+    &-fullscreen {
+        @extend .container-fluid;
+    }
+}
+
+.app-main-section {
+    @include make-row();
+    @include media-breakpoint-up(md) {
+        flex-wrap: nowrap;
+    }
+}
+
+.app-main-aside,
+.app-main-content {
+    @include make-col();
+}
+
+.app-main-aside {
+    @include media-breakpoint-up(md) {
+        @include make-col-span(4);
+    }
+}
+
+.app-main-content {
+    @include media-breakpoint-up(md) {
+        @include make-col-span(8);
+    }
+}
+
+// Site content area layout/theme
+//
+// Note: content specific styles
+// should be added to: pages/_contentpage.scss
+.app-content {
+  background: $app-gray;
+  padding: 1rem;
+}
+
+.app-aside {
+  //min-width: 15rem;
+  padding: 1rem 1rem 1rem 0.5rem;
+}

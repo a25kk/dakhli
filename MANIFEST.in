@@ -1,0 +1,2 @@
+graft src/dakhli
+include *.cfg *.rst *.in

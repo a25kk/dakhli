@@ -1,0 +1,16 @@
+//
+// Footer
+// -----------------------------------
+
+.app-footer {
+    padding-top: $spacer;
+    padding-bottom: $spacer;
+}
+
+.app-footer-content {
+  @extend .container;
+  font-weight: 400;
+  a {
+    text-transform: uppercase;
+  }
+}

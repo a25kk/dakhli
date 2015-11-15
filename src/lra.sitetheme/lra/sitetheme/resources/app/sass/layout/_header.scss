@@ -1,0 +1,41 @@
+//
+// Header
+// ------------------------------------------
+
+
+.app-header {
+  padding-top: 1rem;
+  @include media-breakpoint-up(md) {
+      padding-top: 3rem;
+    padding-left: $spacer;
+    padding-bottom: 1rem;
+  }
+}
+
+.app-header-content {
+    @include media-breakpoint-up(md) {
+        @extend .container;
+        display: flex;
+    }
+}
+
+.app-header-content + .app-header-content {
+  margin-top: 1.5rem;
+}
+
+.app-header-panel {
+  flex: 1;
+}
+
+//== Adjust grid cell sizes
+//
+//## Starting from the grid breakpoint the header
+//## should display in the standard 2:1 ratio
+@include media-breakpoint-up(md) {
+    .app-header-brandbar {
+        flex: 0 0 66.6666%;
+    }
+    .app-header-actionbar {
+        flex: 0 0 33.3333%;
+    }
+}
