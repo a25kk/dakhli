@@ -9090,9 +9090,9 @@ div.riform .label
         width: auto;
         padding-right: 2px; 
 
-        -webkit-flex: 0 0 16.66666667%;
-            -ms-flex: 0 0 16.66666667%;
-                flex: 0 0 16.66666667%;
+        -webkit-flex: 0 0 12.5%;
+            -ms-flex: 0 0 12.5%;
+                flex: 0 0 12.5%;
     }
     .app-navitem:last-child
     {
@@ -9656,6 +9656,13 @@ label
     max-width: 100%;
     height: auto;
     padding: 1rem;
+}
+@media (min-width: 992px)
+{
+    .app-brand-img
+    {
+        padding: 0 1rem;
+    }
 }
 
 .app-brandname-logo
