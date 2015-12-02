@@ -91,6 +91,9 @@
                 css:theme="#app-banner"
                 css:if-content="#app-banner" />
 
+        <drop css:theme="#app-banner"
+            css:if-content=".userrole-authenticated" />
+
          <!-- Login form rules -->
         <replace css:content-children="#content-core"
                 css:theme-children="#app-signin-content"

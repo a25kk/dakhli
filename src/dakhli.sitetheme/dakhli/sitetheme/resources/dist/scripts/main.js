@@ -9868,9 +9868,6 @@ return Flickity;
     if ($(".userrole-anonymous")[0]){
       $('input[type="password"]').showPassword('focus', {
       });
-      var bLazy = new Blazy({
-          selector: '.b-lazy'
-      });
       $('.app-signin-input').jvFloat();
       var $mcNote = $('#app-signin-suggestion');
       Mailcheck.defaultDomains.push('lra-aic-fdb.de')
@@ -9901,5 +9898,4 @@ return Flickity;
   }
   );
 }(jQuery));
-
 
