@@ -83,6 +83,14 @@
         <replace css:content-children='#portal-breadcrumbs'
             css:theme-children='#app-pathbar' />
 
+        <!-- Banner -->
+        <drop css:theme="#app-banner"
+                css:if-not-content="#app-banner" />
+
+        <replace css:content="#app-banner"
+                css:theme="#app-banner"
+                css:if-content="#app-banner" />
+
          <!-- Login form rules -->
         <replace css:content-children="#content-core"
                 css:theme-children="#app-signin-content"

@@ -7,8 +7,8 @@
   padding-top: 1rem;
   @include media-breakpoint-up(md) {
       padding-top: 3rem;
-    padding-left: $spacer;
     padding-bottom: 1rem;
+    border-bottom: 10px solid $app-primary;
   }
 }
 

@@ -9,7 +9,6 @@
     @include media-breakpoint-up(md) {
         flex: 1;
         background: transparent;
-        border-bottom: 10px solid $app-primary;
     }
 }
 
@@ -168,6 +167,10 @@
       min-height: 70px;
         text-align: center;
     }
+}
+
+.selected a {
+  background: $app-secondary;
 }
 
 //== NOTE: this classes are subject to changes

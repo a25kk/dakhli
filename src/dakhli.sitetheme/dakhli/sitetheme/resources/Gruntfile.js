@@ -32,6 +32,7 @@ module.exports = function (grunt) {
                 src: [
                   'bower_components/jquery/dist/jquery.js',
                   'bower_components/modernizr/modernizr.js',
+                  'node_modules/tether/dist/js/tether.min.js',
                   'bower_components/bootstrap/dist/js/bootstrap.js',
                   'bower_components/mailcheck/src/mailcheck.js',
                   'bower_components/JVFloat/jvfloat.js',
@@ -42,12 +43,13 @@ module.exports = function (grunt) {
                   'bower_components/lazysizes/lazysizes.js',
                   'bower_components/respimage/respimage.js',
                   'bower_components/flickity/dist/flickity.pkgd.js',
-                  '<%= config.app %>/js/main.js'
+                  '<%= config.app %>/scripts/main.js'
                 ],
                 dest: '<%= config.dist %>/scripts/<%= pkg.name %>.js'
             },
             theme: {
                 src: [
+                    'node_modules/tether/dist/js/tether.min.js',
                     'bower_components/bootstrap/dist/js/bootstrap.js',
                     'bower_components/lazysizes/plugins/ls.parent-fit.js',
                     'bower_components/lazysizes/plugins/ls.bgset.js',
@@ -55,7 +57,7 @@ module.exports = function (grunt) {
                     'bower_components/lazysizes/lazysizes.js',
                     'bower_components/respimage/respimage.js',
                     'bower_components/flickity/dist/flickity.pkgd.js',
-                    '<%= config.app %>/js/main.js'
+                    '<%= config.app %>/scripts/main.js'
                 ],
                 dest: '<%= config.dist %>/scripts/main.js'
             }
