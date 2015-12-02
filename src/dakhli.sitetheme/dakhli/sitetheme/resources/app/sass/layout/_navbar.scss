@@ -181,38 +181,3 @@
     background-color: darken($app-primary, 6.5%);
   }
 }
-
-.app-navitem-tab-aktuelles {
-  background-color: $app-section-news;
-  &:hover {
-    background-color: darken($app-section-news, 6.5%);
-  }
-}
-
-.app-navitem-tab-landratsamt {
-  background-color: $app-section-department;
-  &:hover {
-    background-color: darken($app-section-department, 6.5%);
-  }
-}
-
-.app-navitem-tab-service {
-  background-color: $app-section-service;
-  &:hover {
-    background-color: darken($app-section-service, 6.5%);
-  }
-}
-
-.app-navitem-tab-info {
-  background-color: $app-section-info;
-  &:hover {
-    background-color: darken($app-section-info, 6.5%);
-  }
-}
-
-.app-navitem-tab-hier-leben{
-  background-color: $app-section-life;
-  &:hover {
-    background-color: darken($app-section-life, 6.5%);
-  }
-}

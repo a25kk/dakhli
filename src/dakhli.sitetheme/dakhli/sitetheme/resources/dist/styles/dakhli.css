@@ -4080,7 +4080,7 @@ a
 {
     text-decoration: none; 
 
-    color: #274d38;
+    color: #2b53a5;
 }
 a:focus,
 a:hover
@@ -6094,7 +6094,7 @@ input[type='button'].destructive:disabled:hover
 {
     font-weight: normal;
 
-    color: #274d38;
+    color: #2b53a5;
     border-radius: 0;
 }
 .btn-link,
@@ -7534,8 +7534,8 @@ input[type='button'] .caret
 
 .card-primary
 {
-    border-color: #274d38; 
-    background-color: #274d38;
+    border-color: #2b53a5; 
+    background-color: #2b53a5;
 }
 
 .card-success
@@ -8130,13 +8130,13 @@ button.close
 
 .text-primary
 {
-    color: #274d38 !important;
+    color: #2b53a5 !important;
 }
 
 a.text-primary:focus,
 a.text-primary:hover
 {
-    color: #162b1f;
+    color: #203f7d;
 }
 
 .text-success
@@ -8839,77 +8839,17 @@ div.riform .label
 
 .app-default
 {
-    color: #274d38;
+    color: #2b53a5;
 }
 
 .app-primary
 {
-    background-color: #274d38;
+    background-color: #2b53a5;
 }
 
 .app-default-bg
 {
-    background-color: #274d38;
-}
-
-.app-news
-{
-    color: #588c73;
-}
-
-.app-news-bg
-{
-    background-color: #588c73;
-}
-
-.app-service
-{
-    color: #f2ae73;
-}
-
-.app-service-bg
-{
-    background-color: #f2ae73;
-}
-
-.app-department
-{
-    color: #c7b450;
-}
-
-.app-department-bg
-{
-    background-color: #c7b450;
-}
-
-.app-service
-{
-    color: #f2ae73;
-}
-
-.app-service-bg
-{
-    background-color: #f2ae73;
-}
-
-.app-info
-{
-    color: #d96459;
-}
-
-.app-info-bg
-{
-    background-color: #d96459;
-}
-
-.app-life
-{
-    color: #8c4747;
-}
-
-.app-life-bg
-{
-    background-color: #8c4747;
+    background-color: #2b53a5;
 }
 
 .app-header
@@ -8967,13 +8907,13 @@ div.riform .label
 .app-navbar
 {
     border-radius: 0; 
-    background-color: #274d38;
+    background-color: #2b53a5;
 }
 @media (min-width: 768px)
 {
     .app-navbar
     {
-        border-bottom: 10px solid #274d38; 
+        border-bottom: 10px solid #2b53a5; 
         background: transparent;
 
         -webkit-flex: 1;
@@ -8990,7 +8930,7 @@ div.riform .label
 
     padding: 0;
 
-    background: #274d38; 
+    background: #2b53a5; 
 
     -webkit-align-items: center;
     -ms-flex-align: center;
@@ -9034,7 +8974,7 @@ div.riform .label
 
     text-align: center; 
 
-    background: #588c73;
+    background: #606060;
 
     -webkit-flex: 0 0 33.3333%;
         -ms-flex: 0 0 33.3333%;
@@ -9175,7 +9115,7 @@ div.riform .label
     text-transform: uppercase;
 
     color: #fff;
-    background-color: #274d38;
+    background-color: #2b53a5;
 
     -webkit-align-items: center;
     -ms-flex-align: center;
@@ -9186,7 +9126,7 @@ div.riform .label
     text-decoration: none; 
 
     color: #fff;
-    background-color: #1c3728;
+    background-color: #24468b;
 }
 .app-navitem-tab > span
 {
@@ -9214,62 +9154,19 @@ div.riform .label
 
 .app-navitem-tab-home
 {
-    background-color: #274d38;
+    background-color: #2b53a5;
 }
 .app-navitem-tab-home:hover
 {
-    background-color: #1c3728;
-}
-
-.app-navitem-tab-aktuelles
-{
-    background-color: #588c73;
-}
-.app-navitem-tab-aktuelles:hover
-{
-    background-color: #4b7862;
-}
-
-.app-navitem-tab-landratsamt
-{
-    background-color: #c7b450;
-}
-.app-navitem-tab-landratsamt:hover
-{
-    background-color: #baa63c;
-}
-
-.app-navitem-tab-service
-{
-    background-color: #f2ae73;
-}
-.app-navitem-tab-service:hover
-{
-    background-color: #ef9c55;
-}
-
-.app-navitem-tab-info
-{
-    background-color: #d96459;
-}
-.app-navitem-tab-info:hover
-{
-    background-color: #d34b3e;
-}
-
-.app-navitem-tab-hier-leben
-{
-    background-color: #8c4747;
-}
-.app-navitem-tab-hier-leben:hover
-{
-    background-color: #763c3c;
+    background-color: #24468b;
 }
 
 .app-footer
 {
     padding-top: 1rem;
     padding-bottom: 1rem;
+
+    text-transform: uppercase;
 }
 
 .app-footer-content
@@ -9732,8 +9629,8 @@ label
     display: -ms-flexbox;
     display:         flex;
 
+    margin: 0; 
     margin-right: -.9375rem;
-    margin-right: 1rem; 
     margin-left: -.9375rem;
 
     -webkit-flex-wrap: wrap;
@@ -9743,101 +9640,33 @@ label
     -ms-flex-align: center;
             align-items: center;
 }
-.app-brand-panel-inverse
+@media (min-width: 544px)
 {
-    width: 100%;
+    .app-brand
+    {
+        margin-right: 1rem;
+    }
 }
 
 .app-brand-img
 {
     display: block;
 
-    width: 140px;
-}
-.app-brand-img-xs
-{
-    width: 64px;
-}
-.app-brand-img-sm
-{
-    width: 64px;
-}
-.app-brand-img-md
-{
-    width: 128px;
-}
-.app-brand-img-lg
-{
-    width: 272.576px;
-}
-.app-brand-panel .app-brand-img
-{
-    position: relative;
-
-    min-height: 1px;
-    padding-right: .9375rem;
-    padding-left: .9375rem;
-
-    -webkit-flex: 0 0 33.3333333333%;
-        -ms-flex: 0 0 33.3333333333%;
-            flex: 0 0 33.3333333333%;
-}
-@media (min-width: 768px)
-{
-    .app-brand-panel .app-brand-img
-    {
-        -webkit-flex: 0 0 33.3333333333%;
-            -ms-flex: 0 0 33.3333333333%;
-                flex: 0 0 33.3333333333%;
-    }
-}
-.app-brand-panel-inverse .app-brand-img
-{
-    position: relative;
-
-    min-height: 1px;
-    padding-right: .9375rem; 
-    padding-left: .9375rem;
-}
-@media (min-width: 768px)
-{
-    .app-brand-panel-inverse .app-brand-img
-    {
-        -webkit-flex: 0 0 25%;
-            -ms-flex: 0 0 25%;
-                flex: 0 0 25%;
-    }
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    padding: 1rem;
 }
 
 .app-brandname-logo
 {
-    width: 140px;
+    width: 100%;
 }
-.app-brand-img-xs .app-brandname-logo
+@media (min-width: 992px)
 {
-    width: 32px;
-}
-.app-brand-img-sm .app-brandname-logo
-{
-    width: 64px;
-}
-.app-brand-img-md .app-brandname-logo
-{
-    width: 128px;
-}
-.app-brand-img-lg .app-brandname-logo
-{
-    width: 272px;
-}
-.app-header-brandbar .app-brandname-logo
-{
-    width: 64px;
-}
-@media (min-width: 544px)
-{
-    .app-header-brandbar .app-brandname-logo
+    .app-brandname-logo
     {
-        width: 128px;
+        width: 400px;
     }
 }
 
@@ -9851,7 +9680,7 @@ label
 
     padding: 1rem;
 
-    color: #274d38;
+    color: #2b53a5;
 }
 .app-brand-panel .app-brandname
 {
@@ -9868,29 +9697,6 @@ label
         -webkit-flex: 0 0 66.6666%;
             -ms-flex: 0 0 66.6666%;
                 flex: 0 0 66.6666%;
-    }
-}
-.app-brand-panel-inverse .app-brandname
-{
-    font-size: 1.25rem;
-    line-height: 1;
-
-    color: #fff;
-}
-@media (min-width: 768px)
-{
-    .app-brand-panel-inverse .app-brandname
-    {
-        -webkit-flex: 0 0 75%;
-            -ms-flex: 0 0 75%;
-                flex: 0 0 75%;
-    }
-}
-@media (min-width: 544px)
-{
-    .app-brandname
-    {
-        font-size: 1.65rem;
     }
 }
 
@@ -9923,7 +9729,7 @@ label
     text-align: center; 
 
     color: #fff;
-    background: #274d38;
+    background: #2b53a5;
 
     -webkit-flex: 1;
         -ms-flex: 1;
@@ -9932,12 +9738,12 @@ label
 .app-action:nth-child(even)
 {
     color: #fff;
-    background: #588c73;
+    background: #606060;
 }
 
 .app-action-search
 {
-    color: #274d38;
+    color: #2b53a5;
     background: #edeaea; 
 
     -webkit-flex: 1;
@@ -9970,8 +9776,8 @@ label
 .app-searchbox-btn
 {
     color: #fff;
-    border-color: #588c73; 
-    background-color: #588c73;
+    border-color: #606060; 
+    background-color: #606060;
 
     -webkit-flex: 0 0 33.3333%;
         -ms-flex: 0 0 33.3333%;
@@ -9980,23 +9786,23 @@ label
 .app-searchbox-btn:hover
 {
     color: #fff;
-    border-color: #406654; 
-    background-color: #446d59;
+    border-color: #414141; 
+    background-color: #474747;
 }
 .app-searchbox-btn:focus,
 .app-searchbox-btn.focus
 {
     color: #fff;
-    border-color: #406654; 
-    background-color: #446d59;
+    border-color: #414141; 
+    background-color: #474747;
 }
 .app-searchbox-btn:active,
 .app-searchbox-btn.active,
 .open > .app-searchbox-btn.dropdown-toggle
 {
     color: #fff;
-    border-color: #406654;
-    background-color: #446d59;
+    border-color: #414141;
+    background-color: #474747;
     background-image: none;
 }
 .app-searchbox-btn:active:hover,
@@ -10010,27 +9816,27 @@ label
 .open > .app-searchbox-btn.dropdown-toggle.focus
 {
     color: #fff;
-    border-color: #273e33; 
-    background-color: #375747;
+    border-color: #202020; 
+    background-color: #353535;
 }
 .app-searchbox-btn.disabled:focus,
 .app-searchbox-btn.disabled.focus,
 .app-searchbox-btn:disabled:focus,
 .app-searchbox-btn:disabled.focus
 {
-    border-color: #588c73; 
-    background-color: #588c73;
+    border-color: #606060; 
+    background-color: #606060;
 }
 .app-searchbox-btn.disabled:hover,
 .app-searchbox-btn:disabled:hover
 {
-    border-color: #588c73; 
-    background-color: #588c73;
+    border-color: #606060; 
+    background-color: #606060;
 }
 
 .app-bannerbar
 {
-    background: #274d38;
+    background: #2b53a5;
 }
 
 .app-banner
@@ -10108,7 +9914,7 @@ label
 .app-search .input-group-addon
 {
     color: #fff; 
-    background: #274d38;
+    background: #2b53a5;
 }
 
 .app-page-scroll
@@ -10413,7 +10219,7 @@ dd.portletItem .navTreeItem a
 
 .navTreeItem a:hover
 {
-    color: #274d38 !important;
+    color: #2b53a5 !important;
 }
 
 dl.portlet ul.navTree .navTreeCurrentItem
@@ -10424,7 +10230,7 @@ dl.portlet ul.navTree .navTreeCurrentItem
 
 .navTreeCurrentItem
 {
-    color: #274d38 !important;
+    color: #2b53a5 !important;
 }
 
 .navTreeItem .active
@@ -10499,7 +10305,7 @@ dl.portlet ul.navTree .navTreeCurrentItem
     min-height: 8rem;
     padding: 1rem .5rem;
 
-    background: #588c73; 
+    background: #606060; 
 
     -webkit-align-items: center;
     -ms-flex-align: center;
@@ -10510,7 +10316,7 @@ dl.portlet ul.navTree .navTreeCurrentItem
 {
     padding: .5rem;
 
-    background: #274d38;
+    background: #2b53a5;
 }
 
 .app-card-footer
@@ -10595,7 +10401,7 @@ dl.portlet ul.navTree .navTreeCurrentItem
     margin-bottom: .5rem; 
     padding: 1rem;
 
-    background: #588c73;
+    background: #606060;
 }
 .app-newsletterbar .form-control,
 .app-newsletterbar .app-searchbox-field
@@ -10607,7 +10413,7 @@ dl.portlet ul.navTree .navTreeCurrentItem
 {
     color: #fff;
     border: 0; 
-    background: #274d38;
+    background: #2b53a5;
 }
 
 .app-layout-simple
@@ -10638,7 +10444,7 @@ dl.portlet ul.navTree .navTreeCurrentItem
 {
     font-weight: 400;
 
-    color: #274d38;
+    color: #2b53a5;
 }
 
 .app-signin-content
