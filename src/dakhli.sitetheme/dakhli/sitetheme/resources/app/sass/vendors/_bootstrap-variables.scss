@@ -18,3 +18,5 @@ $enable-grid-classes:       false;
 //## Reset and adjust existing variables
 $brand-primary:                 $app-primary;
 $link-color:                    $app-primary;
+$link-hover-color:           darken(#7db9e8, 25%) !important;
+$link-hover-decoration:      none !important;

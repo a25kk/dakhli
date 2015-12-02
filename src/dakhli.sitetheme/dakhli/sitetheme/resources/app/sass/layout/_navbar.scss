@@ -163,14 +163,16 @@
       }
     }
     @include media-breakpoint-up(md) {
-      height: 70px;
-      min-height: 70px;
+      height: 50px;
+      min-height: 50px;
         text-align: center;
     }
 }
 
-.selected a {
+.selected a,
+.active a {
   background: $app-secondary;
+  color: #fff;
 }
 
 //== NOTE: this classes are subject to changes

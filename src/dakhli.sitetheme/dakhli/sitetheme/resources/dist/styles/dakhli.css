@@ -4085,9 +4085,9 @@ a
 a:focus,
 a:hover
 {
-    text-decoration: underline; 
+    text-decoration: none !important; 
 
-    color: #014c8c;
+    color: #237dc3 !important;
 }
 a:focus
 {
@@ -6117,9 +6117,9 @@ input[type='button'].destructive:disabled:hover
 .btn-link:focus,
 .btn-link:hover
 {
-    text-decoration: underline;
+    text-decoration: none !important;
 
-    color: #014c8c;
+    color: #237dc3 !important;
     background-color: transparent;
 }
 .btn-link:disabled:focus,
@@ -9343,15 +9343,17 @@ div.riform .label
 {
     .app-navitem-tab
     {
-        height: 70px;
-        min-height: 70px;
+        height: 50px;
+        min-height: 50px;
 
         text-align: center;
     }
 }
 
-.selected a
+.selected a,
+.active a
 {
+    color: #fff; 
     background: #606060;
 }
 
