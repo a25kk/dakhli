@@ -4003,7 +4003,7 @@ html
 
 body
 {
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Lato';
     font-size: 1rem;
     line-height: 1.5;
 
@@ -9524,7 +9524,7 @@ label
 
 .plone-toolbar-nav
 {
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Lato';
     font-size: 12px;
 
     margin: 0;
@@ -9588,7 +9588,7 @@ label
 
 .plone-toolbar-subnav
 {
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Lato';
     font-size: 14px;
     line-height: 30px;
 
